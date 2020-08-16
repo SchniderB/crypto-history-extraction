@@ -38,6 +38,7 @@ The configuration of the input parameters is made with the file `config.txt`:
 * The time frame for data extraction
 * The list of cryptocurrency symbol pairs
 * The base currency The base currency
+
 Please examine the file `config.txt` for a concrete example.
 
 ### Extract the price history
@@ -50,7 +51,7 @@ and the number of years of history that you want to extract.
 
 ## Results
 ### Output files
-Extracted data is saved in the history_data folder as $PAIR_close_price.txt.
+Extracted data is saved in the `history_data` folder as `$PAIR_close_price.txt`.
 
 #### Example output format
 ```
